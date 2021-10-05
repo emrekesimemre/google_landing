@@ -1,0 +1,159 @@
+body{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+.h-left{
+  /* border: solid 1px red; */
+  float: left;
+  margin: 10px;
+}
+
+.h-right{
+  /* border: solid 1px red; */
+  float: right;
+  margin: 10px;
+}
+.link{
+  /* border: solid 1px red; */
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.sıgn-button{
+  background-color: rgb(66, 133, 244);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.sıgn-button:hover{
+  cursor: pointer;
+  box-shadow: 0px 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.appicon{
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+.appicon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.logo{
+  /* border: solid 1px red; */
+  position: relative;
+  top: 120px;
+  left: 500px;
+}
+
+.magnifying{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.microphone{
+  width: 15px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+
+.search-area{
+  /* border: solid 1px red; */
+  width: 500px;
+  height: 50px;
+  position: relative;
+  top: 130px;
+  left: 400px;
+  border: none;
+}
+
+.search{
+  display:inline-block;
+  border-radius: 30px;
+  width: 500px;
+  height: 45px;
+  margin-right: 90px;
+}
+.button-area{
+  /* border: solid 1px red; */
+  position: relative;
+  width: 300px ;
+  height: 40px;
+  left: 530px;
+  top: 150px;
+}
+.gsearch{
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid rgb(228, 228, 228) ;
+  transition: all ease-in-out 10ms;
+}
+.gsearch:hover{
+outline-offset: 1px ;
+}
+
+.feeling{
+  width: 120px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  outline: 1px solid rgb(228, 228, 228) ;
+  transition: all ease-in-out 10ms;
+}
+.feeling:hover{
+  outline-offset: 1px ;
+  }
+.lang{
+  width: 300px;
+  position: relative;
+  left: 530px;
+  top: 170px;
+}
+.language{
+ 
+  font-size: 14px;
+}
+
+footer{
+  line-height: 40px;
+  /* border: solid 1px blue; */
+  position: relative;
+  top:320px;
+  background-color: rgb(228, 228, 228);
+}
+.f-left{
+  /* border: solid 1px red; */
+  float: left;
+  
+}
+
+.f-right{
+  /* border: solid 1px red; */
+  float: right;
+}
+.f-link{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 14px;
+}
+.f-link:hover{
+  text-decoration: underline;
+}
