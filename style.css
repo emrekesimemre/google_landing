@@ -132,15 +132,20 @@ outline-offset: 1px ;
 }
 
 footer{
+  width: 100%;
   line-height: 40px;
   /* border: solid 1px blue; */
-  position: relative;
-  top:320px;
+  position: fixed;
+  bottom:0px;
   background-color: rgb(228, 228, 228);
+}
+.turkey{
+  border-bottom:1px solid rgb(180, 185, 185) ;
 }
 .f-left{
   /* border: solid 1px red; */
   float: left;
+  /* background-color: rgb(228, 228, 228); */
   
 }
 
