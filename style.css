@@ -4,18 +4,15 @@ body{
   margin: 0;
 }
 .h-left{
-  /* border: solid 1px red; */
   float: left;
   margin: 10px;
 }
 
 .h-right{
-  /* border: solid 1px red; */
   float: right;
   margin: 10px;
 }
 .link{
-  /* border: solid 1px red; */
   color: black;
   text-decoration: none;
   padding: 10px;
@@ -49,10 +46,9 @@ body{
 }
 
 .logo{
-  /* border: solid 1px red; */
   position: relative;
   top: 120px;
-  left: 500px;
+  left: 38%;
 }
 
 .magnifying{
@@ -71,7 +67,6 @@ body{
 }
 
 .search-area{
-  /* border: solid 1px red; */
   width: 500px;
   height: 50px;
   position: relative;
@@ -134,7 +129,6 @@ outline-offset: 1px ;
 footer{
   width: 100%;
   line-height: 40px;
-  /* border: solid 1px blue; */
   position: fixed;
   bottom:0px;
   background-color: rgb(228, 228, 228);
@@ -143,14 +137,10 @@ footer{
   border-bottom:1px solid rgb(180, 185, 185) ;
 }
 .f-left{
-  /* border: solid 1px red; */
-  float: left;
-  /* background-color: rgb(228, 228, 228); */
-  
+  float: left; 
 }
 
 .f-right{
-  /* border: solid 1px red; */
   float: right;
 }
 .f-link{
